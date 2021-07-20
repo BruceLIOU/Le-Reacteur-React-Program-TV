@@ -1,0 +1,66 @@
+/* Other rules */
+.App{
+    width: 100%;
+    margin: 0 auto;
+}
+header, ul {
+    display: flex;
+}
+header {
+    justify-content: center;
+}
+ul {
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+.section {
+    display: flex;
+}
+li {
+    padding: 1% 0;
+    width: 40%;
+    border-bottom: 2px solid rgb(226, 226, 226);
+}
+.section .time {
+    font-size: 12px;
+    font-weight: 700;
+    margin: auto 10px;
+}
+.section img {
+    height: 90px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.section .col {
+    margin-left: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.col p:first-child {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.col p:nth-child(2) {
+    font-size: 12px;
+    margin: 20px 0 5px 0;
+}
+.col div, .col div span {
+    font-size: 12px;
+    font-weight: 700;
+}
+.col div {
+    display: flex;
+    position: relative;
+}
+.col div span {
+    color: #ff034b;
+    position: absolute;
+    left: 40px;
+}
+.col div, .col div span {
+    font-size: 12px;
+    font-weight: 700;
+}

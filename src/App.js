@@ -1,9 +1,14 @@
-import "./App.css";
+import "./assets/css/App.css";
+import logo from "./assets/img/logo.png";
+import Section from "./components/Section";
 
 function App() {
   return (
-    <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
+    <div className="App">
+      <header>
+        <img src={logo} alt="Logo M6" />
+      </header>
+      <Section />
     </div>
   );
 }
